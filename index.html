@@ -1,27 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-
-
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 <head>
   <title>Netflix</title>
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
-<header class="showcase">
-			<div class="showcase-top">
+
+	
+	<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark static-top">
+		
+		  <a class="navbar-brand" href="#">
+			<i class="fas fa-mug-hot" style="font-size: 50px;"></i>
+			<span>BRAND NAME HERE</span>
+			  </a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+		  <div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+			  <li class="nav-item active">
+				<h3><a class="nav-link" href="#">Home
+					  <span class="sr-only">(current)</span>
+					</a></h3>
+			  </li>
+			  <li class="nav-item">
+				<h3><a class="nav-link" href="#">About</a></h3>
+			  </li>
+			  <li class="nav-item">
+				<h3><a class="nav-link" href="#">Movies</a></h3>
+			  </li>
+			  <li class="nav-item">
+				<h3><a class="nav-link" href="#">Series</a></h3>
+			  </li>
+			</ul>
+		  </div>
+		
+	  </nav>
+	  
+<header class="showcase" id="bg">
+	
+			<!--<div class="showcase-top">
 				<img src="assets/Images/logo.png" alt="" />
 				<a href="#" class="btn btn-rounded">Sign In</a>
-			</div>
+			</div>-->
 			<div class="showcase-content">
 				<h1>See what's next</h1>
 				<p>Watch anywhere. Cancel Anytime</p>
 				<a href="#" class="btn btn-xl"
-					>Watch Free For 30 Days <i class="fas fa-chevron-right btn-icon"></i
+					>Start your 30 day free trial <i class="fas fa-chevron-right btn-icon"></i
 				></a>
+
+				
 			</div>
+
+			
+			
+				
+			
+			
 		</header>
+
+		
+
+		
+		
+		<section>
+			
+				<div style="display: flex;flex-direction: row;background: linear-gradient(to right, rgba(0,0,0,0) 0%,black);">
+					<img src="assets/Images/background.jpg" alt="" srcset="" style="width: 50%;z-index: -1;">
+					<div>
+
+						<h1 style="padding: 2%;"><b>Great Entertainment</b></h1>
+						<p style="padding: 4%;font-size: 30px;">With your Prime membership, you have access to exclusive Amazon Originals, blockbuster Bollywood movies, regional movies and more.</p>
+
+					</div>
+					
+				</div>
+
+				
+
+			
+		</section>
+
+
+		<section>
+			
+			<div style="display: flex;flex-direction: row;background: linear-gradient(to left, rgba(0,0,0,0) 0%,black);">
+				
+				<div>
+
+					<h1 style="padding: 2%;"><b>Great Entertainment</b></h1>
+					<p style="padding: 4%;font-size: 30px;">With your Prime membership, you have access to exclusive Amazon Originals, blockbuster Bollywood movies, regional movies and more.</p>
+
+				</div>
+
+				<img src="assets/Images/background2.jpg" alt="" srcset="" style="width: 50%;z-index: -1;">
+				
+			</div>
+
+			
+
+		
+	</section>
+
+
+	<section>
+			
+		<div style="display: flex;flex-direction: row;justify-content:space-around;padding: 10em;">
+
+			
+			<div class="card bg-dark text-white" style="width: 18rem;">
+				<i class="fas fa-clock" style="font-size: 100px;align-self:center;padding: 10px;"></i>
+
+				<div class="card-body">
+				  <h5 class="card-title">Unlimited streaming</h5>
+				  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				  <a href="#" class="btn btn-primary">Go somewhere</a>
+				</div>
+			  </div>
+			
+			  <div class="card bg-dark text-white" style="width: 18rem;">
+				<i class="fas fa-video" style="font-size: 100px;align-self:center;padding: 10px;"></i>
+				<div class="card-body">
+				  <h5 class="card-title">All your favourite movies and series</h5>
+				  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				  <a href="#" class="btn btn-primary">Go somewhere</a>
+				</div>
+			  </div>
+			  <div class="card bg-dark text-white" style="width: 18rem;">
+				<i class="fas fa-cloud-download-alt" style="font-size: 100px;align-self:center;padding: 10px;"></i>
+
+				<div class="card-body">
+				  <h5 class="card-title">Card title</h5>
+				  <p class="card-text">Having network issues ? You can always save your favorite shows/movies to watch later.</p>
+				  <a href="#" class="btn btn-primary">Go somewhere</a>
+				</div>
+			  </div>
+
+			
+			
+		</div>
+
+		
+
+	
+</section>
+
 		<section class="tabs">
 			<div class="container">
 				<div id="tab-1" class="tab-item tab-border">
@@ -49,7 +179,7 @@
 								If you decide Netflix isn't for you - no problem. No commitment.
 								Cancel online anytime.
 							</p>
-							<a href="#" class="btn btn-lg">Watch Free For 30 Days</a>
+							<a href="#" class="btn btn-lg"> Watch Free for 30days</a>
 						</div>
 						<img src="assets/Images/tab-content-1.png" alt="" />
 					</div>
@@ -169,6 +299,8 @@
 			</div>
 		</section>
 
+
+
 		<footer class="footer">
 			<p>Questions? Call 1-866-579-7172</p>
 			<div class="footer-cols">
@@ -236,6 +368,47 @@ function removeShow() {
 tabItems.forEach(item => {
 	item.addEventListener('click', selectItem);
 });
+
+var ele = document.getElementById('bg')
+let count = 0
+
+setInterval(function(){
+	
+	if(count===0){
+		//alert("Entered")
+		ele.style.background = "url('assets/Images/s0.jpg') no-repeat center/cover";
+	}
+	else if(count===1){
+		ele.style.background = "url('assets/Images/s1.jpg') no-repeat center/cover"
+	}
+	else if(count===2){
+		ele.style.background = "url('assets/Images/s2.jpg') no-repeat center/cover"
+	}
+	count+=1
+
+	if(count>2){
+		count = 0
+	}
+},2000)
+
+
+/*var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}*/
+
+
+
 
 		</script>
 
